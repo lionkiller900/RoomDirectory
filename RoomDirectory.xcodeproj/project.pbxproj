@@ -36,6 +36,7 @@
 		8499A4D62886117600C4E01B /* PeopleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4D52886117600C4E01B /* PeopleUseCase.swift */; };
 		8499A4D8288611E600C4E01B /* PeopleRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4D7288611E600C4E01B /* PeopleRecord.swift */; };
 		8499A4DA2886124300C4E01B /* RoomRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4D92886124300C4E01B /* RoomRecord.swift */; };
+		8499A4DC288612D700C4E01B /* RoomsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4DB288612D700C4E01B /* RoomsRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		8499A4D52886117600C4E01B /* PeopleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleUseCase.swift; sourceTree = "<group>"; };
 		8499A4D7288611E600C4E01B /* PeopleRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRecord.swift; sourceTree = "<group>"; };
 		8499A4D92886124300C4E01B /* RoomRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomRecord.swift; sourceTree = "<group>"; };
+		8499A4DB288612D700C4E01B /* RoomsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +261,7 @@
 		8499A4A82886028A00C4E01B /* Interfaces */ = {
 			isa = PBXGroup;
 			children = (
+				8499A4DB288612D700C4E01B /* RoomsRepository.swift */,
 			);
 			path = Interfaces;
 			sourceTree = "<group>";
@@ -478,6 +481,7 @@
 				8499A4C628860D4A00C4E01B /* PeopleViewStates.swift in Sources */,
 				8499A4DA2886124300C4E01B /* RoomRecord.swift in Sources */,
 				8499A4C028860B4100C4E01B /* RoomsTableViewCell.swift in Sources */,
+				8499A4DC288612D700C4E01B /* RoomsRepository.swift in Sources */,
 				8499A4B6288605C100C4E01B /* PeoplesCoordinator.swift in Sources */,
 				8499A4CA28860E2E00C4E01B /* Constants.swift in Sources */,
 				8499A4BA2886098500C4E01B /* RoomsViewController.swift in Sources */,
