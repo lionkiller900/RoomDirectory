@@ -20,6 +20,7 @@
 		8499A4B42886059800C4E01B /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4B32886059800C4E01B /* AppCoordinator.swift */; };
 		8499A4B6288605C100C4E01B /* PeoplesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4B5288605C100C4E01B /* PeoplesCoordinator.swift */; };
 		8499A4B8288605DC00C4E01B /* RoomsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4B7288605DC00C4E01B /* RoomsCoordinator.swift */; };
+		8499A4BA2886098500C4E01B /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4B92886098500C4E01B /* RoomsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		8499A4B32886059800C4E01B /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		8499A4B5288605C100C4E01B /* PeoplesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplesCoordinator.swift; sourceTree = "<group>"; };
 		8499A4B7288605DC00C4E01B /* RoomsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsCoordinator.swift; sourceTree = "<group>"; };
+		8499A4B92886098500C4E01B /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 		8499A4A22885D79700C4E01B /* Rooms */ = {
 			isa = PBXGroup;
 			children = (
+				8499A4B92886098500C4E01B /* RoomsViewController.swift */,
 			);
 			path = Rooms;
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 				8499A4752885D6DF00C4E01B /* ViewController.swift in Sources */,
 				8499A4B8288605DC00C4E01B /* RoomsCoordinator.swift in Sources */,
 				8499A4B6288605C100C4E01B /* PeoplesCoordinator.swift in Sources */,
+				8499A4BA2886098500C4E01B /* RoomsViewController.swift in Sources */,
 				8499A4712885D6DF00C4E01B /* AppDelegate.swift in Sources */,
 				8499A4B42886059800C4E01B /* AppCoordinator.swift in Sources */,
 				8499A4B22886055500C4E01B /* CoordinatorType.swift in Sources */,
