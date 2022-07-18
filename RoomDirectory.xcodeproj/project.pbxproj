@@ -30,6 +30,9 @@
 		8499A4C828860D9900C4E01B /* PeopleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4C728860D9900C4E01B /* PeopleCollectionViewCell.swift */; };
 		8499A4CA28860E2E00C4E01B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4C928860E2E00C4E01B /* Constants.swift */; };
 		8499A4CD28860EBE00C4E01B /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4CC28860EBE00C4E01B /* Alertable.swift */; };
+		8499A4CF28860F2D00C4E01B /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4CE28860F2D00C4E01B /* Storyboardable.swift */; };
+		8499A4D12886101000C4E01B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8499A4D02886101000C4E01B /* Localizable.strings */; };
+		8499A4D4288610B100C4E01B /* RoomsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4D3288610B100C4E01B /* RoomsUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +80,9 @@
 		8499A4C728860D9900C4E01B /* PeopleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCollectionViewCell.swift; sourceTree = "<group>"; };
 		8499A4C928860E2E00C4E01B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8499A4CC28860EBE00C4E01B /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		8499A4CE28860F2D00C4E01B /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		8499A4D02886101000C4E01B /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		8499A4D3288610B100C4E01B /* RoomsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +139,6 @@
 				8499A4702885D6DF00C4E01B /* AppDelegate.swift */,
 				8499A4722885D6DF00C4E01B /* SceneDelegate.swift */,
 				8499A4742885D6DF00C4E01B /* ViewController.swift */,
-				8499A4762885D6DF00C4E01B /* Main.storyboard */,
 				8499A4792885D6E100C4E01B /* Assets.xcassets */,
 				8499A47B2885D6E100C4E01B /* LaunchScreen.storyboard */,
 				8499A47E2885D6E100C4E01B /* Info.plist */,
@@ -211,6 +216,8 @@
 				8499A4C928860E2E00C4E01B /* Constants.swift */,
 				8499A4CB28860E7800C4E01B /* Storyboards */,
 				8499A4CC28860EBE00C4E01B /* Alertable.swift */,
+				8499A4CE28860F2D00C4E01B /* Storyboardable.swift */,
+				8499A4D22886103E00C4E01B /* Localization */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -228,6 +235,7 @@
 		8499A4A62886026B00C4E01B /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				8499A4D3288610B100C4E01B /* RoomsUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -309,8 +317,17 @@
 		8499A4CB28860E7800C4E01B /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				8499A4762885D6DF00C4E01B /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8499A4D22886103E00C4E01B /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				8499A4D02886101000C4E01B /* Localizable.strings */,
+			);
+			path = Localization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8499A47D2885D6E100C4E01B /* LaunchScreen.storyboard in Resources */,
+				8499A4D12886101000C4E01B /* Localizable.strings in Resources */,
 				8499A47A2885D6E100C4E01B /* Assets.xcassets in Resources */,
 				8499A4782885D6DF00C4E01B /* Main.storyboard in Resources */,
 			);
@@ -457,9 +475,11 @@
 				8499A4712885D6DF00C4E01B /* AppDelegate.swift in Sources */,
 				8499A4B42886059800C4E01B /* AppCoordinator.swift in Sources */,
 				8499A4CD28860EBE00C4E01B /* Alertable.swift in Sources */,
+				8499A4D4288610B100C4E01B /* RoomsUseCase.swift in Sources */,
 				8499A4B22886055500C4E01B /* CoordinatorType.swift in Sources */,
 				8499A4BE28860ACC00C4E01B /* RoomsViewStates.swift in Sources */,
 				8499A4732885D6DF00C4E01B /* SceneDelegate.swift in Sources */,
+				8499A4CF28860F2D00C4E01B /* Storyboardable.swift in Sources */,
 				8499A4BC28860A3A00C4E01B /* RoomsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

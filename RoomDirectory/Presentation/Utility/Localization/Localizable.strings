@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  RoomDirectory
+
+  Created by Admin on 18/07/2022.
+  
+*/
+
+// Titles
+
+"alert" = "Alert";
+"peoples" = "Peoples";
+"rooms" = "Rooms";
+
+
+// API Errors
+"empty_response" = "Empty Response";
+"request_failed" = "Request Failed";
+"invalid_data" = "Invalid Data";
+"response_unsucessful" = "Response Unsucessful";
+"invalid_search" = "Pls Enter Keyword To Search";
+"parsing_failed" = "Data Parsing Failed";
