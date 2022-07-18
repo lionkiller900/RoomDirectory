@@ -29,6 +29,7 @@
 		8499A4C628860D4A00C4E01B /* PeopleViewStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4C528860D4A00C4E01B /* PeopleViewStates.swift */; };
 		8499A4C828860D9900C4E01B /* PeopleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4C728860D9900C4E01B /* PeopleCollectionViewCell.swift */; };
 		8499A4CA28860E2E00C4E01B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4C928860E2E00C4E01B /* Constants.swift */; };
+		8499A4CD28860EBE00C4E01B /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4CC28860EBE00C4E01B /* Alertable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		8499A4C528860D4A00C4E01B /* PeopleViewStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewStates.swift; sourceTree = "<group>"; };
 		8499A4C728860D9900C4E01B /* PeopleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCollectionViewCell.swift; sourceTree = "<group>"; };
 		8499A4C928860E2E00C4E01B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8499A4CC28860EBE00C4E01B /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +209,8 @@
 			isa = PBXGroup;
 			children = (
 				8499A4C928860E2E00C4E01B /* Constants.swift */,
+				8499A4CB28860E7800C4E01B /* Storyboards */,
+				8499A4CC28860EBE00C4E01B /* Alertable.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -300,6 +304,13 @@
 			children = (
 			);
 			path = Presentation;
+			sourceTree = "<group>";
+		};
+		8499A4CB28860E7800C4E01B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -445,6 +456,7 @@
 				8499A4C228860BE800C4E01B /* PeoplesViewController.swift in Sources */,
 				8499A4712885D6DF00C4E01B /* AppDelegate.swift in Sources */,
 				8499A4B42886059800C4E01B /* AppCoordinator.swift in Sources */,
+				8499A4CD28860EBE00C4E01B /* Alertable.swift in Sources */,
 				8499A4B22886055500C4E01B /* CoordinatorType.swift in Sources */,
 				8499A4BE28860ACC00C4E01B /* RoomsViewStates.swift in Sources */,
 				8499A4732885D6DF00C4E01B /* SceneDelegate.swift in Sources */,
