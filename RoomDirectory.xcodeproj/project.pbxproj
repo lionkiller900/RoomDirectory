@@ -21,6 +21,7 @@
 		8499A4B6288605C100C4E01B /* PeoplesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4B5288605C100C4E01B /* PeoplesCoordinator.swift */; };
 		8499A4B8288605DC00C4E01B /* RoomsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4B7288605DC00C4E01B /* RoomsCoordinator.swift */; };
 		8499A4BA2886098500C4E01B /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4B92886098500C4E01B /* RoomsViewController.swift */; };
+		8499A4BC28860A3A00C4E01B /* RoomsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4BB28860A3A00C4E01B /* RoomsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		8499A4B5288605C100C4E01B /* PeoplesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplesCoordinator.swift; sourceTree = "<group>"; };
 		8499A4B7288605DC00C4E01B /* RoomsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsCoordinator.swift; sourceTree = "<group>"; };
 		8499A4B92886098500C4E01B /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		8499A4BB28860A3A00C4E01B /* RoomsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				8499A4B92886098500C4E01B /* RoomsViewController.swift */,
+				8499A4BB28860A3A00C4E01B /* RoomsViewModel.swift */,
 			);
 			path = Rooms;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 				8499A4B42886059800C4E01B /* AppCoordinator.swift in Sources */,
 				8499A4B22886055500C4E01B /* CoordinatorType.swift in Sources */,
 				8499A4732885D6DF00C4E01B /* SceneDelegate.swift in Sources */,
+				8499A4BC28860A3A00C4E01B /* RoomsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
