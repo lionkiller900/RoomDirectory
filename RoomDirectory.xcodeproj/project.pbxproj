@@ -38,6 +38,20 @@
 		8499A4DA2886124300C4E01B /* RoomRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4D92886124300C4E01B /* RoomRecord.swift */; };
 		8499A4DC288612D700C4E01B /* RoomsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4DB288612D700C4E01B /* RoomsRepository.swift */; };
 		8499A4DE2886136E00C4E01B /* PeoplesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4DD2886136E00C4E01B /* PeoplesRepository.swift */; };
+		8499A4E02886140200C4E01B /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4DF2886140200C4E01B /* EndPoints.swift */; };
+		8499A4E22886146700C4E01B /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4E12886146700C4E01B /* APIError.swift */; };
+		8499A4E42886149500C4E01B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4E32886149500C4E01B /* NetworkManager.swift */; };
+		8499A4E6288614E700C4E01B /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4E5288614E700C4E01B /* ApiRequest.swift */; };
+		8499A4E82886151800C4E01B /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4E72886151800C4E01B /* URLRequest+Extension.swift */; };
+		8499A4EA2886154E00C4E01B /* DefaultPeopleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4E92886154E00C4E01B /* DefaultPeopleRepository.swift */; };
+		8499A4EC2886157100C4E01B /* DefaultRoomsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4EB2886157100C4E01B /* DefaultRoomsRepository.swift */; };
+		8499A4EE2886197F00C4E01B /* PeopleResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4ED2886197F00C4E01B /* PeopleResponce.swift */; };
+		8499A4F0288619A600C4E01B /* RoomsResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4EF288619A600C4E01B /* RoomsResponseDTO.swift */; };
+		8499A4F528861A7900C4E01B /* PeopleUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4F428861A7900C4E01B /* PeopleUseCaseTests.swift */; };
+		8499A4F728861A9D00C4E01B /* RoomsUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4F628861A9D00C4E01B /* RoomsUseCaseTests.swift */; };
+		8499A4FA28861AED00C4E01B /* PeopleViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4F928861AED00C4E01B /* PeopleViewModelTests.swift */; };
+		8499A4FC28861B1F00C4E01B /* RoomsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4FB28861B1E00C4E01B /* RoomsViewModelTests.swift */; };
+		8499A4FE28861B7C00C4E01B /* MockPeopleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4FD28861B7B00C4E01B /* MockPeopleUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +107,20 @@
 		8499A4D92886124300C4E01B /* RoomRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomRecord.swift; sourceTree = "<group>"; };
 		8499A4DB288612D700C4E01B /* RoomsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsRepository.swift; sourceTree = "<group>"; };
 		8499A4DD2886136E00C4E01B /* PeoplesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplesRepository.swift; sourceTree = "<group>"; };
+		8499A4DF2886140200C4E01B /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		8499A4E12886146700C4E01B /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		8499A4E32886149500C4E01B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8499A4E5288614E700C4E01B /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		8499A4E72886151800C4E01B /* URLRequest+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
+		8499A4E92886154E00C4E01B /* DefaultPeopleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPeopleRepository.swift; sourceTree = "<group>"; };
+		8499A4EB2886157100C4E01B /* DefaultRoomsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultRoomsRepository.swift; sourceTree = "<group>"; };
+		8499A4ED2886197F00C4E01B /* PeopleResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleResponce.swift; sourceTree = "<group>"; };
+		8499A4EF288619A600C4E01B /* RoomsResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsResponseDTO.swift; sourceTree = "<group>"; };
+		8499A4F428861A7900C4E01B /* PeopleUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleUseCaseTests.swift; sourceTree = "<group>"; };
+		8499A4F628861A9D00C4E01B /* RoomsUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsUseCaseTests.swift; sourceTree = "<group>"; };
+		8499A4F928861AED00C4E01B /* PeopleViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModelTests.swift; sourceTree = "<group>"; };
+		8499A4FB28861B1E00C4E01B /* RoomsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewModelTests.swift; sourceTree = "<group>"; };
+		8499A4FD28861B7B00C4E01B /* MockPeopleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPeopleUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +311,10 @@
 		8499A4AA288602B000C4E01B /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				8499A4DF2886140200C4E01B /* EndPoints.swift */,
+				8499A4E12886146700C4E01B /* APIError.swift */,
+				8499A4E32886149500C4E01B /* NetworkManager.swift */,
+				8499A4E5288614E700C4E01B /* ApiRequest.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -290,6 +322,7 @@
 		8499A4AB288602B900C4E01B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				8499A4E72886151800C4E01B /* URLRequest+Extension.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -297,6 +330,8 @@
 		8499A4AC288604D000C4E01B /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				8499A4E92886154E00C4E01B /* DefaultPeopleRepository.swift */,
+				8499A4EB2886157100C4E01B /* DefaultRoomsRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -304,6 +339,8 @@
 		8499A4AD288604E300C4E01B /* DataMapping */ = {
 			isa = PBXGroup;
 			children = (
+				8499A4ED2886197F00C4E01B /* PeopleResponce.swift */,
+				8499A4EF288619A600C4E01B /* RoomsResponseDTO.swift */,
 			);
 			path = DataMapping;
 			sourceTree = "<group>";
@@ -311,6 +348,8 @@
 		8499A4AE2886050000C4E01B /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				8499A4F228861A0A00C4E01B /* JSON */,
+				8499A4F1288619FC00C4E01B /* Mock */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -318,6 +357,9 @@
 		8499A4AF2886050800C4E01B /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				8499A4F328861A2B00C4E01B /* Mock */,
+				8499A4F428861A7900C4E01B /* PeopleUseCaseTests.swift */,
+				8499A4F628861A9D00C4E01B /* RoomsUseCaseTests.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -325,6 +367,9 @@
 		8499A4B02886051000C4E01B /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				8499A4F828861AD100C4E01B /* Mock */,
+				8499A4F928861AED00C4E01B /* PeopleViewModelTests.swift */,
+				8499A4FB28861B1E00C4E01B /* RoomsViewModelTests.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -343,6 +388,35 @@
 				8499A4D02886101000C4E01B /* Localizable.strings */,
 			);
 			path = Localization;
+			sourceTree = "<group>";
+		};
+		8499A4F1288619FC00C4E01B /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		8499A4F228861A0A00C4E01B /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		8499A4F328861A2B00C4E01B /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		8499A4F828861AD100C4E01B /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				8499A4FD28861B7B00C4E01B /* MockPeopleUseCase.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -477,22 +551,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8499A4E42886149500C4E01B /* NetworkManager.swift in Sources */,
 				8499A4C428860C9100C4E01B /* PeopleViewModel.swift in Sources */,
 				8499A4752885D6DF00C4E01B /* ViewController.swift in Sources */,
 				8499A4DE2886136E00C4E01B /* PeoplesRepository.swift in Sources */,
 				8499A4C828860D9900C4E01B /* PeopleCollectionViewCell.swift in Sources */,
 				8499A4B8288605DC00C4E01B /* RoomsCoordinator.swift in Sources */,
+				8499A4EC2886157100C4E01B /* DefaultRoomsRepository.swift in Sources */,
 				8499A4C628860D4A00C4E01B /* PeopleViewStates.swift in Sources */,
 				8499A4DA2886124300C4E01B /* RoomRecord.swift in Sources */,
 				8499A4C028860B4100C4E01B /* RoomsTableViewCell.swift in Sources */,
 				8499A4DC288612D700C4E01B /* RoomsRepository.swift in Sources */,
+				8499A4EA2886154E00C4E01B /* DefaultPeopleRepository.swift in Sources */,
 				8499A4B6288605C100C4E01B /* PeoplesCoordinator.swift in Sources */,
+				8499A4F0288619A600C4E01B /* RoomsResponseDTO.swift in Sources */,
 				8499A4CA28860E2E00C4E01B /* Constants.swift in Sources */,
 				8499A4BA2886098500C4E01B /* RoomsViewController.swift in Sources */,
 				8499A4C228860BE800C4E01B /* PeoplesViewController.swift in Sources */,
 				8499A4712885D6DF00C4E01B /* AppDelegate.swift in Sources */,
 				8499A4D8288611E600C4E01B /* PeopleRecord.swift in Sources */,
 				8499A4B42886059800C4E01B /* AppCoordinator.swift in Sources */,
+				8499A4EE2886197F00C4E01B /* PeopleResponce.swift in Sources */,
+				8499A4E02886140200C4E01B /* EndPoints.swift in Sources */,
 				8499A4D62886117600C4E01B /* PeopleUseCase.swift in Sources */,
 				8499A4CD28860EBE00C4E01B /* Alertable.swift in Sources */,
 				8499A4D4288610B100C4E01B /* RoomsUseCase.swift in Sources */,
@@ -501,6 +581,9 @@
 				8499A4732885D6DF00C4E01B /* SceneDelegate.swift in Sources */,
 				8499A4CF28860F2D00C4E01B /* Storyboardable.swift in Sources */,
 				8499A4BC28860A3A00C4E01B /* RoomsViewModel.swift in Sources */,
+				8499A4E82886151800C4E01B /* URLRequest+Extension.swift in Sources */,
+				8499A4E6288614E700C4E01B /* ApiRequest.swift in Sources */,
+				8499A4E22886146700C4E01B /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,7 +591,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8499A4F528861A7900C4E01B /* PeopleUseCaseTests.swift in Sources */,
+				8499A4FA28861AED00C4E01B /* PeopleViewModelTests.swift in Sources */,
+				8499A4F728861A9D00C4E01B /* RoomsUseCaseTests.swift in Sources */,
 				8499A4882885D6E200C4E01B /* RoomDirectoryTests.swift in Sources */,
+				8499A4FE28861B7C00C4E01B /* MockPeopleUseCase.swift in Sources */,
+				8499A4FC28861B1F00C4E01B /* RoomsViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
