@@ -37,6 +37,7 @@
 		8499A4D8288611E600C4E01B /* PeopleRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4D7288611E600C4E01B /* PeopleRecord.swift */; };
 		8499A4DA2886124300C4E01B /* RoomRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4D92886124300C4E01B /* RoomRecord.swift */; };
 		8499A4DC288612D700C4E01B /* RoomsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4DB288612D700C4E01B /* RoomsRepository.swift */; };
+		8499A4DE2886136E00C4E01B /* PeoplesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4DD2886136E00C4E01B /* PeoplesRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		8499A4D7288611E600C4E01B /* PeopleRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRecord.swift; sourceTree = "<group>"; };
 		8499A4D92886124300C4E01B /* RoomRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomRecord.swift; sourceTree = "<group>"; };
 		8499A4DB288612D700C4E01B /* RoomsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsRepository.swift; sourceTree = "<group>"; };
+		8499A4DD2886136E00C4E01B /* PeoplesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplesRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				8499A4DB288612D700C4E01B /* RoomsRepository.swift */,
+				8499A4DD2886136E00C4E01B /* PeoplesRepository.swift */,
 			);
 			path = Interfaces;
 			sourceTree = "<group>";
@@ -476,6 +479,7 @@
 			files = (
 				8499A4C428860C9100C4E01B /* PeopleViewModel.swift in Sources */,
 				8499A4752885D6DF00C4E01B /* ViewController.swift in Sources */,
+				8499A4DE2886136E00C4E01B /* PeoplesRepository.swift in Sources */,
 				8499A4C828860D9900C4E01B /* PeopleCollectionViewCell.swift in Sources */,
 				8499A4B8288605DC00C4E01B /* RoomsCoordinator.swift in Sources */,
 				8499A4C628860D4A00C4E01B /* PeopleViewStates.swift in Sources */,
