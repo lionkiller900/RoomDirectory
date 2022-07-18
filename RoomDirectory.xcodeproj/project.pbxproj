@@ -35,6 +35,7 @@
 		8499A4D4288610B100C4E01B /* RoomsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4D3288610B100C4E01B /* RoomsUseCase.swift */; };
 		8499A4D62886117600C4E01B /* PeopleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4D52886117600C4E01B /* PeopleUseCase.swift */; };
 		8499A4D8288611E600C4E01B /* PeopleRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4D7288611E600C4E01B /* PeopleRecord.swift */; };
+		8499A4DA2886124300C4E01B /* RoomRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4D92886124300C4E01B /* RoomRecord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		8499A4D3288610B100C4E01B /* RoomsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsUseCase.swift; sourceTree = "<group>"; };
 		8499A4D52886117600C4E01B /* PeopleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleUseCase.swift; sourceTree = "<group>"; };
 		8499A4D7288611E600C4E01B /* PeopleRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRecord.swift; sourceTree = "<group>"; };
+		8499A4D92886124300C4E01B /* RoomRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomRecord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				8499A4D7288611E600C4E01B /* PeopleRecord.swift */,
+				8499A4D92886124300C4E01B /* RoomRecord.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -473,6 +476,7 @@
 				8499A4C828860D9900C4E01B /* PeopleCollectionViewCell.swift in Sources */,
 				8499A4B8288605DC00C4E01B /* RoomsCoordinator.swift in Sources */,
 				8499A4C628860D4A00C4E01B /* PeopleViewStates.swift in Sources */,
+				8499A4DA2886124300C4E01B /* RoomRecord.swift in Sources */,
 				8499A4C028860B4100C4E01B /* RoomsTableViewCell.swift in Sources */,
 				8499A4B6288605C100C4E01B /* PeoplesCoordinator.swift in Sources */,
 				8499A4CA28860E2E00C4E01B /* Constants.swift in Sources */,
