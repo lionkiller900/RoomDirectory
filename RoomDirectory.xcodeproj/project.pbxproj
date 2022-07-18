@@ -99,6 +99,7 @@
 		8499A46F2885D6DF00C4E01B /* RoomDirectory */ = {
 			isa = PBXGroup;
 			children = (
+				8499A4A02885D74200C4E01B /* Presentation */,
 				8499A4702885D6DF00C4E01B /* AppDelegate.swift */,
 				8499A4722885D6DF00C4E01B /* SceneDelegate.swift */,
 				8499A4742885D6DF00C4E01B /* ViewController.swift */,
@@ -125,6 +126,45 @@
 				8499A4932885D6E200C4E01B /* RoomDirectoryUITestsLaunchTests.swift */,
 			);
 			path = RoomDirectoryUITests;
+			sourceTree = "<group>";
+		};
+		8499A4A02885D74200C4E01B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				8499A4A42885D84700C4E01B /* Utility */,
+				8499A4A32885D83E00C4E01B /* People */,
+				8499A4A22885D79700C4E01B /* Rooms */,
+				8499A4A12885D74F00C4E01B /* Coordinator */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		8499A4A12885D74F00C4E01B /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		8499A4A22885D79700C4E01B /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Rooms;
+			sourceTree = "<group>";
+		};
+		8499A4A32885D83E00C4E01B /* People */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		8499A4A42885D84700C4E01B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
