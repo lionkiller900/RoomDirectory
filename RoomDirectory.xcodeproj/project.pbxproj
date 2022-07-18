@@ -33,6 +33,7 @@
 		8499A4CF28860F2D00C4E01B /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4CE28860F2D00C4E01B /* Storyboardable.swift */; };
 		8499A4D12886101000C4E01B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8499A4D02886101000C4E01B /* Localizable.strings */; };
 		8499A4D4288610B100C4E01B /* RoomsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4D3288610B100C4E01B /* RoomsUseCase.swift */; };
+		8499A4D62886117600C4E01B /* PeopleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499A4D52886117600C4E01B /* PeopleUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		8499A4CE28860F2D00C4E01B /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
 		8499A4D02886101000C4E01B /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		8499A4D3288610B100C4E01B /* RoomsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsUseCase.swift; sourceTree = "<group>"; };
+		8499A4D52886117600C4E01B /* PeopleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				8499A4D3288610B100C4E01B /* RoomsUseCase.swift */,
+				8499A4D52886117600C4E01B /* PeopleUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -474,6 +477,7 @@
 				8499A4C228860BE800C4E01B /* PeoplesViewController.swift in Sources */,
 				8499A4712885D6DF00C4E01B /* AppDelegate.swift in Sources */,
 				8499A4B42886059800C4E01B /* AppCoordinator.swift in Sources */,
+				8499A4D62886117600C4E01B /* PeopleUseCase.swift in Sources */,
 				8499A4CD28860EBE00C4E01B /* Alertable.swift in Sources */,
 				8499A4D4288610B100C4E01B /* RoomsUseCase.swift in Sources */,
 				8499A4B22886055500C4E01B /* CoordinatorType.swift in Sources */,
