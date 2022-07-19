@@ -1,5 +1,5 @@
 //
-//  MockPeopleUseCase.swift
+//  MockPeopleRepository.swift
 //  RoomDirectoryTests
 //
 //  Created by Donald Daniels on 17/07/2022.
@@ -7,21 +7,18 @@
 
 import Foundation
 @testable import RoomDirectory
-import XCTest
 
-class MokcPeopleUseCase: PeopleUseCase {
-    
+final class MockPeopleRepository: PeoplesRepository {
     var peoplesRecords: [PeopleRecord]?
-    
-    func execute() async throws -> [PeopleRecord] {
-        
+
+    func getPeoples() async throws -> [PeopleRecord] {
         if peoplesRecords == nil {
             throw  APIError.invalidData
         }
        return  peoplesRecords!
     }
     
-    func getImage(for url: String) async throws -> Data {
+    func getImages(for url: String) async throws -> Data {
         if url == "invalid" {
             throw  APIError.invalidData
         }

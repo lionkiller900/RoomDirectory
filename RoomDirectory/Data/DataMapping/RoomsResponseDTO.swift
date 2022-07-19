@@ -2,7 +2,7 @@
 //  RoomsResponseDTO.swift
 //  RoomDirectory
 //
-//  Created by Admin on 18/07/2022.
+//  Created by Donald Daniels on 17/07/2022.
 //
 
 import Foundation

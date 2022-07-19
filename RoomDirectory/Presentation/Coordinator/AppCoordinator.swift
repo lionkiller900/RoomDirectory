@@ -49,4 +49,3 @@ class AppCoordinator: Coordinator {
         return roomsNavCtrl
     }
 }
-
